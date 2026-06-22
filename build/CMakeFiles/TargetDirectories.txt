@@ -1,0 +1,3 @@
+/Users/major/Desktop/MyEngine/build/CMakeFiles/MyEngine.dir
+/Users/major/Desktop/MyEngine/build/CMakeFiles/edit_cache.dir
+/Users/major/Desktop/MyEngine/build/CMakeFiles/rebuild_cache.dir
