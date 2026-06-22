@@ -13,6 +13,8 @@ set(SOURCES
     src/main.cpp
     src/Window.cpp
     src/Shader.cpp
+    src/Engine.cpp
+    src/glad.c
 )
 
 add_executable(MyEngine ${SOURCES})

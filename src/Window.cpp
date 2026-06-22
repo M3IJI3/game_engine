@@ -4,6 +4,7 @@
 
 // 析构函数: 窗口销毁时自动清理
 Window::~Window(){
+    std::cout << "Window destructor called" << std::endl;  // 加这行
     // 如果窗口指针不是空的, 销毁窗口并终止GLFW
     if(m_window){
         glfwDestroyWindow(m_window);    // 销毁窗口
@@ -52,6 +53,7 @@ void Window::SwapBuffers() { glfwSwapBuffers(m_window); }
 
 // 实现清屏
 void Window::Clear(){
+    if(!m_window) return;
     // ===== 清屏为蓝色 =====
     glClearColor(0.2f, 0.3f, 0.8f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
