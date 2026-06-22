@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/major/Desktop/MyEngine/src/glad.c" "CMakeFiles/MyEngine.dir/src/glad.c.o" "gcc" "CMakeFiles/MyEngine.dir/src/glad.c.o.d"
+  "/Users/major/Desktop/MyEngine/src/Engine.cpp" "CMakeFiles/MyEngine.dir/src/Engine.cpp.o" "gcc" "CMakeFiles/MyEngine.dir/src/Engine.cpp.o.d"
   "/Users/major/Desktop/MyEngine/src/Shader.cpp" "CMakeFiles/MyEngine.dir/src/Shader.cpp.o" "gcc" "CMakeFiles/MyEngine.dir/src/Shader.cpp.o.d"
   "/Users/major/Desktop/MyEngine/src/Window.cpp" "CMakeFiles/MyEngine.dir/src/Window.cpp.o" "gcc" "CMakeFiles/MyEngine.dir/src/Window.cpp.o.d"
   "/Users/major/Desktop/MyEngine/src/main.cpp" "CMakeFiles/MyEngine.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyEngine.dir/src/main.cpp.o.d"
