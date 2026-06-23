@@ -1033,6 +1033,8 @@ CMakeFiles/MyEngine.dir/src/main.cpp.o: \
   /Users/major/Desktop/MyEngine/include/glm/integer.hpp \
   /Users/major/Desktop/MyEngine/include/glm/detail/func_integer.inl \
   /Users/major/Desktop/MyEngine/include/Engine.h \
+  /Users/major/Desktop/MyEngine/include/Scene.h \
+  /Users/major/Desktop/MyEngine/include/Texture.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \

@@ -128,10 +128,66 @@ CMakeFiles/MyEngine.dir/src/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/Engine.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/Engine.cpp -o CMakeFiles/MyEngine.dir/src/Engine.cpp.s
 
+CMakeFiles/MyEngine.dir/src/Logger.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/Logger.cpp.o: /Users/major/Desktop/MyEngine/src/Logger.cpp
+CMakeFiles/MyEngine.dir/src/Logger.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyEngine.dir/src/Logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/Logger.cpp.o -MF CMakeFiles/MyEngine.dir/src/Logger.cpp.o.d -o CMakeFiles/MyEngine.dir/src/Logger.cpp.o -c /Users/major/Desktop/MyEngine/src/Logger.cpp
+
+CMakeFiles/MyEngine.dir/src/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/Logger.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/Logger.cpp > CMakeFiles/MyEngine.dir/src/Logger.cpp.i
+
+CMakeFiles/MyEngine.dir/src/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/Logger.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/Logger.cpp -o CMakeFiles/MyEngine.dir/src/Logger.cpp.s
+
+CMakeFiles/MyEngine.dir/src/Scene.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/Scene.cpp.o: /Users/major/Desktop/MyEngine/src/Scene.cpp
+CMakeFiles/MyEngine.dir/src/Scene.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyEngine.dir/src/Scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/Scene.cpp.o -MF CMakeFiles/MyEngine.dir/src/Scene.cpp.o.d -o CMakeFiles/MyEngine.dir/src/Scene.cpp.o -c /Users/major/Desktop/MyEngine/src/Scene.cpp
+
+CMakeFiles/MyEngine.dir/src/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/Scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/Scene.cpp > CMakeFiles/MyEngine.dir/src/Scene.cpp.i
+
+CMakeFiles/MyEngine.dir/src/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/Scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/Scene.cpp -o CMakeFiles/MyEngine.dir/src/Scene.cpp.s
+
+CMakeFiles/MyEngine.dir/src/Input.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/Input.cpp.o: /Users/major/Desktop/MyEngine/src/Input.cpp
+CMakeFiles/MyEngine.dir/src/Input.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyEngine.dir/src/Input.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/Input.cpp.o -MF CMakeFiles/MyEngine.dir/src/Input.cpp.o.d -o CMakeFiles/MyEngine.dir/src/Input.cpp.o -c /Users/major/Desktop/MyEngine/src/Input.cpp
+
+CMakeFiles/MyEngine.dir/src/Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/Input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/Input.cpp > CMakeFiles/MyEngine.dir/src/Input.cpp.i
+
+CMakeFiles/MyEngine.dir/src/Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/Input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/Input.cpp -o CMakeFiles/MyEngine.dir/src/Input.cpp.s
+
+CMakeFiles/MyEngine.dir/src/Texture.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/Texture.cpp.o: /Users/major/Desktop/MyEngine/src/Texture.cpp
+CMakeFiles/MyEngine.dir/src/Texture.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyEngine.dir/src/Texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/Texture.cpp.o -MF CMakeFiles/MyEngine.dir/src/Texture.cpp.o.d -o CMakeFiles/MyEngine.dir/src/Texture.cpp.o -c /Users/major/Desktop/MyEngine/src/Texture.cpp
+
+CMakeFiles/MyEngine.dir/src/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/Texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/Texture.cpp > CMakeFiles/MyEngine.dir/src/Texture.cpp.i
+
+CMakeFiles/MyEngine.dir/src/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/Texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/Texture.cpp -o CMakeFiles/MyEngine.dir/src/Texture.cpp.s
+
 CMakeFiles/MyEngine.dir/src/glad.c.o: CMakeFiles/MyEngine.dir/flags.make
 CMakeFiles/MyEngine.dir/src/glad.c.o: /Users/major/Desktop/MyEngine/src/glad.c
 CMakeFiles/MyEngine.dir/src/glad.c.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MyEngine.dir/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/MyEngine.dir/src/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/glad.c.o -MF CMakeFiles/MyEngine.dir/src/glad.c.o.d -o CMakeFiles/MyEngine.dir/src/glad.c.o -c /Users/major/Desktop/MyEngine/src/glad.c
 
 CMakeFiles/MyEngine.dir/src/glad.c.i: cmake_force
@@ -148,6 +204,10 @@ MyEngine_OBJECTS = \
 "CMakeFiles/MyEngine.dir/src/Window.cpp.o" \
 "CMakeFiles/MyEngine.dir/src/Shader.cpp.o" \
 "CMakeFiles/MyEngine.dir/src/Engine.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/Logger.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/Scene.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/Input.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/Texture.cpp.o" \
 "CMakeFiles/MyEngine.dir/src/glad.c.o"
 
 # External object files for target MyEngine
@@ -157,11 +217,15 @@ MyEngine: CMakeFiles/MyEngine.dir/src/main.cpp.o
 MyEngine: CMakeFiles/MyEngine.dir/src/Window.cpp.o
 MyEngine: CMakeFiles/MyEngine.dir/src/Shader.cpp.o
 MyEngine: CMakeFiles/MyEngine.dir/src/Engine.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/Logger.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/Scene.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/Input.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/Texture.cpp.o
 MyEngine: CMakeFiles/MyEngine.dir/src/glad.c.o
 MyEngine: CMakeFiles/MyEngine.dir/build.make
 MyEngine: /opt/homebrew/opt/glfw/lib/libglfw.3.dylib
 MyEngine: CMakeFiles/MyEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MyEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MyEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

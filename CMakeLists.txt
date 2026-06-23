@@ -15,6 +15,10 @@ set(SOURCES
     src/Window.cpp
     src/Shader.cpp
     src/Engine.cpp
+    src/Logger.cpp
+    src/Scene.cpp
+    src/Input.cpp
+    src/Texture.cpp
     src/glad.c
 )
 

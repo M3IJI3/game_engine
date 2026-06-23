@@ -85,12 +85,12 @@ clean: CMakeFiles/MyEngine.dir/clean
 CMakeFiles/MyEngine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyEngine.dir/build.make CMakeFiles/MyEngine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyEngine.dir/build.make CMakeFiles/MyEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target MyEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target MyEngine"
 .PHONY : CMakeFiles/MyEngine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/major/Desktop/MyEngine/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/major/Desktop/MyEngine/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/major/Desktop/MyEngine/build/CMakeFiles 0
 .PHONY : CMakeFiles/MyEngine.dir/rule
@@ -102,7 +102,7 @@ MyEngine: CMakeFiles/MyEngine.dir/rule
 # codegen rule for target.
 CMakeFiles/MyEngine.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyEngine.dir/build.make CMakeFiles/MyEngine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target MyEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target MyEngine"
 .PHONY : CMakeFiles/MyEngine.dir/codegen
 
 # clean rule for target.

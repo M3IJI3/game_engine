@@ -1,10 +1,11 @@
 #include "Window.h"
+#include "Logger.h"
 #include <GLFW/glfw3.h>
 #include <iostream>                     // 用于打印错误信息
 
 // 析构函数: 窗口销毁时自动清理
 Window::~Window(){
-    std::cout << "Window destructor called" << std::endl;  // 加这行
+    Logger::Info("Window destructor called.");
     // 如果窗口指针不是空的, 销毁窗口并终止GLFW
     if(m_window){
         glfwDestroyWindow(m_window);    // 销毁窗口
@@ -16,7 +17,7 @@ Window::~Window(){
 bool Window::Create(int width, int height, const std::string& title){
     // 1. 初始化 GLFW 库
     if(!glfwInit()){
-        std::cerr << "GLFW init failed!" << std::endl;
+        Logger::Error("GLFW init failed.");
         return false;
     }
 
@@ -28,7 +29,7 @@ bool Window::Create(int width, int height, const std::string& title){
     // 3. 创建窗口
     m_window = glfwCreateWindow(width, height, title.c_str(), nullptr, nullptr);
     if(!m_window){
-        std::cerr << "Window creation failed!" << std::endl;
+        Logger::Error("Window creation failed.");
         glfwTerminate();  // 失败要清理 GLFW
         return false;
     }

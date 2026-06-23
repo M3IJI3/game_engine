@@ -1,4 +1,5 @@
 #include "Shader.h"
+#include "Logger.h"
 #include <fstream>      // 读文件
 #include <sstream>      // 字符串流
 #include <iostream>     // 打印
@@ -14,7 +15,6 @@ bool Shader::Load(const std::string& vertexPath, const std::string& fragmentPath
     std::ifstream fFile(fragmentPath);
 
     if(!vFile.is_open() || !fFile.is_open()){
-        std::cerr << "Fail to open shader files!" << std::endl;
         return false;
     }
 
@@ -41,10 +41,10 @@ bool Shader::Load(const std::string& vertexPath, const std::string& fragmentPath
     if(!success){
         char infoLog[512];
         glGetShaderInfoLog(vertexShader, 512, nullptr, infoLog);
-        std::cerr << "Vertex shader compilation failed:\n" << infoLog << std::endl;
+        Logger::Error("Vertex shader compilation failed: " + std::string(infoLog));
         return false;
     }
-    std::cout << "Vertex shader compiled successfully!" << std::endl;
+    Logger::Info("Vertex shader compiled successfully");
 
     // 3. 创建片元着色器
     unsigned int fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
@@ -57,10 +57,10 @@ bool Shader::Load(const std::string& vertexPath, const std::string& fragmentPath
     if(!success){
         char infoLog[512];
         glGetShaderInfoLog(fragmentShader, 512, nullptr, infoLog);
-        std::cerr << "Fragment shader compilation failed:\n" << infoLog << std::endl;
+        Logger::Error("Fragment shader compilation failed: " + std::string(infoLog)); 
         return false;
     }
-    std::cout << "Fragment shader compiled successfully!" << std::endl;
+    Logger::Info("Fragment shader compiled successfully");
 
     // 4. 链接两个着色器成一个程序
     m_programID = glCreateProgram();
@@ -73,10 +73,10 @@ bool Shader::Load(const std::string& vertexPath, const std::string& fragmentPath
     if(!success){
         char infoLog[512];
         glGetProgramInfoLog(m_programID, 512, nullptr, infoLog);
-        std::cerr << "Shader linking failed:\n" << infoLog << std::endl;
+        Logger::Error("Shader linking failed: " + std::string(infoLog));
         return false;
     }
-    std::cout << "Shader program linked successfully!" << std::endl;
+    Logger::Info("Shader program linked successfully");
 
     // 5. 着色器已经链接到程序里, 单独的着色器对象可以删除
     glDeleteShader(vertexShader);
@@ -97,4 +97,9 @@ void Shader::SetMat4(const std::string& name, const glm::mat4& value){
 void Shader::SetVec3(const std::string& name, const glm::vec3& value){
     unsigned int location = glGetUniformLocation(m_programID, name.c_str());
     glUniform3fv(location, 1, &value[0]);
+}
+
+void Shader::SetInt(const std::string& name, int value){
+    unsigned int location = glGetUniformLocation(m_programID, name.c_str());
+    glUniform1i(location, value);
 }
