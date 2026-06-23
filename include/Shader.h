@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <glm/glm.hpp>  // glm 数学库, 提供矩阵和向量
 
 // Shader Class: 负责管理 GPU 上的着色器程序
 class Shader{
@@ -17,6 +18,14 @@ public:
 
     // 激活这个着色器程序 (告诉 GPU 用这个着色器渲染)
     void Use() const;
+
+    // 把矩阵传到GPU
+    // name: 着色器里uniform的名字
+    // value: 要传的矩阵
+    void SetMat4(const std::string& name, const glm::mat4& value);
+
+    // 设置颜色
+    void SetVec3(const std::string& name, const glm::vec3& value);
 private:
     // GPU 上的着色器程序ID, 0 表示无效
     unsigned int m_programID = 0;

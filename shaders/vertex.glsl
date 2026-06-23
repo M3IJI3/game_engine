@@ -6,10 +6,13 @@
 // aPos 是变量名，代表顶点的位置坐标
 layout (location = 0) in vec3 aPos;
 
+uniform mat4 uTransform;
+
 // main函数：每个顶点都会执行一次这个函数
 void main() {
     // gl_Position 是GLSL内置变量，表示顶点在屏幕上的最终位置
     // vec4(aPos.x, aPos.y, aPos.z, 1.0) 把三维坐标转成四维坐标
     // 第四个分量1.0代表这是一个"位置"点，而不是"方向"向量
-    gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);
+    // 新增: 用矩阵 * 顶点坐标, 得到变换后的位置
+    gl_Position = uTransform * vec4(aPos.x, aPos.y, aPos.z, 1.0);
 }

@@ -28,6 +28,9 @@ public:
     // 清屏
     void Clear();
 
+    // 返回GLFW窗口句柄
+    GLFWwindow* GetHandle() const;
+
 private:
     // GLFW窗口指针: 指向真正的窗口对象
     GLFWwindow* m_window = nullptr;

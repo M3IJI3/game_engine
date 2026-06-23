@@ -87,3 +87,14 @@ bool Shader::Load(const std::string& vertexPath, const std::string& fragmentPath
 
 // 使用着色器
 void Shader::Use() const{ glUseProgram(m_programID); }
+
+// 把矩阵传到CPU
+void Shader::SetMat4(const std::string& name, const glm::mat4& value){
+    unsigned int location = glGetUniformLocation(m_programID, name.c_str());
+    glUniformMatrix4fv(location, 1, GL_FALSE, &value[0][0]);
+}
+
+void Shader::SetVec3(const std::string& name, const glm::vec3& value){
+    unsigned int location = glGetUniformLocation(m_programID, name.c_str());
+    glUniform3fv(location, 1, &value[0]);
+}

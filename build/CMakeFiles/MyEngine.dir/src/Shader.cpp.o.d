@@ -758,7 +758,86 @@ CMakeFiles/MyEngine.dir/src/Shader.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_destructor.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
+  /Users/major/Desktop/MyEngine/include/glm/glm.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/_fixes.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/setup.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
+  /Users/major/Desktop/MyEngine/include/glm/detail/../simd/platform.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
+  /Users/major/Desktop/MyEngine/include/glm/fwd.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/qualifier.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/vec2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_bool2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_vec2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_vec2.inl \
+  /Users/major/Desktop/MyEngine/include/glm/detail/./compute_vector_relational.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_bool2_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_float2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_float2_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_double2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_double2_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_int2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_int2_sized.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../ext/vector_int2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../ext/scalar_int_sized.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/setup.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_uint2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_uint2_sized.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../ext/vector_uint2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../ext/scalar_uint_sized.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/vec3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_bool3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_vec3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_vec3.inl \
+  /Users/major/Desktop/MyEngine/include/glm/detail/compute_vector_relational.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/compute_vector_decl.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_back.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_front.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder1st.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_fwd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_parse_context.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integral.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/tables.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_output.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_to_n_result.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/unicode.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h \
@@ -772,8 +851,6 @@ CMakeFiles/MyEngine.dir/src/Shader.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h \
@@ -788,23 +865,7 @@ CMakeFiles/MyEngine.dir/src/Shader.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
@@ -835,6 +896,153 @@ CMakeFiles/MyEngine.dir/src/Shader.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/compose.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  /Users/major/Desktop/MyEngine/include/glm/detail/_vectorize.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_bool3_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_float3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_float3_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_double3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_double3_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_int3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_int3_sized.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../ext/vector_int3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_uint3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_uint3_sized.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../ext/vector_uint3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/vec4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_bool4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_vec4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_vec4.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_bool4_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_float4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_float4_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_double4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_double4_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_int4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_int4_sized.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../ext/vector_int4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_uint4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/vector_uint4_sized.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../ext/vector_uint4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/mat2x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double2x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_mat2x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_vec2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_mat2x2.inl \
+  /Users/major/Desktop/MyEngine/include/glm/detail/../matrix.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/mat2x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double2x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_mat2x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_vec3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_mat2x3.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double2x3_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float2x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float2x3_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/mat2x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double2x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_mat2x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_vec4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_mat2x4.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double2x4_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float2x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float2x4_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/mat3x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double3x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_mat3x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_mat3x2.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double3x2_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float3x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float3x2_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/mat3x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double3x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_mat3x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_mat3x3.inl \
+  /Users/major/Desktop/MyEngine/include/glm/detail/../common.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/func_common.inl \
+  /Users/major/Desktop/MyEngine/include/glm/detail/../vector_relational.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/func_vector_relational.inl \
+  /Users/major/Desktop/MyEngine/include/glm/detail/compute_common.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_vec1.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_vec1.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double3x3_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float3x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float3x3_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/mat3x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double3x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_mat3x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_mat3x4.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double3x4_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float3x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float3x4_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/mat4x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double4x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_mat4x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_mat4x2.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double4x2_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float4x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float4x2_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/mat4x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double4x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_mat4x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_mat4x3.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double4x3_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float4x3.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float4x3_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/mat4x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double4x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/../detail/type_mat4x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_mat4x4.inl \
+  /Users/major/Desktop/MyEngine/include/glm/detail/../geometric.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/func_geometric.inl \
+  /Users/major/Desktop/MyEngine/include/glm/detail/../exponential.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/func_exponential.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double4x4_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float4x4.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float4x4_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/func_matrix.inl \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_double2x2_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float2x2.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/./ext/matrix_float2x2_precision.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/trigonometric.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/func_trigonometric.inl \
+  /Users/major/Desktop/MyEngine/include/glm/exponential.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/common.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/packing.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/func_packing.inl \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_half.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/type_half.inl \
+  /Users/major/Desktop/MyEngine/include/glm/geometric.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/matrix.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/vector_relational.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/integer.hpp \
+  /Users/major/Desktop/MyEngine/include/glm/detail/func_integer.inl \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \

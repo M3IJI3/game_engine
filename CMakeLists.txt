@@ -8,6 +8,7 @@ add_definitions(-DGL_SILENCE_DEPRECATION)
 
 include_directories(include)
 include_directories(/opt/homebrew/opt/glfw/include)
+include_directories(/Users/major/Desktop/MyEngine/include)
 
 set(SOURCES
     src/main.cpp
