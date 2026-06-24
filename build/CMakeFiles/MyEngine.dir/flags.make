@@ -5,7 +5,7 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = -DGL_SILENCE_DEPRECATION
 
-C_INCLUDES = -I/Users/major/Desktop/MyEngine/include -I/opt/homebrew/opt/glfw/include
+C_INCLUDES = -I/Users/major/Desktop/MyEngine/include -I/opt/homebrew/opt/glfw/include -I/Users/major/Desktop/MyEngine/third_party/imgui -I/Users/major/Desktop/MyEngine/third_party/imgui/backends
 
 C_FLAGSarm64 =  -arch arm64
 
@@ -13,7 +13,7 @@ C_FLAGS =  -arch arm64
 
 CXX_DEFINES = -DGL_SILENCE_DEPRECATION
 
-CXX_INCLUDES = -I/Users/major/Desktop/MyEngine/include -I/opt/homebrew/opt/glfw/include
+CXX_INCLUDES = -I/Users/major/Desktop/MyEngine/include -I/opt/homebrew/opt/glfw/include -I/Users/major/Desktop/MyEngine/third_party/imgui -I/Users/major/Desktop/MyEngine/third_party/imgui/backends
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

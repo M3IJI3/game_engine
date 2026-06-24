@@ -198,6 +198,104 @@ CMakeFiles/MyEngine.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MyEngine.dir/src/glad.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/major/Desktop/MyEngine/src/glad.c -o CMakeFiles/MyEngine.dir/src/glad.c.s
 
+CMakeFiles/MyEngine.dir/src/imgui.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/imgui.cpp.o: /Users/major/Desktop/MyEngine/src/imgui.cpp
+CMakeFiles/MyEngine.dir/src/imgui.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyEngine.dir/src/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/imgui.cpp.o -MF CMakeFiles/MyEngine.dir/src/imgui.cpp.o.d -o CMakeFiles/MyEngine.dir/src/imgui.cpp.o -c /Users/major/Desktop/MyEngine/src/imgui.cpp
+
+CMakeFiles/MyEngine.dir/src/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/imgui.cpp > CMakeFiles/MyEngine.dir/src/imgui.cpp.i
+
+CMakeFiles/MyEngine.dir/src/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/imgui.cpp -o CMakeFiles/MyEngine.dir/src/imgui.cpp.s
+
+CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.o: /Users/major/Desktop/MyEngine/src/imgui_draw.cpp
+CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.o -MF CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.o.d -o CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.o -c /Users/major/Desktop/MyEngine/src/imgui_draw.cpp
+
+CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/imgui_draw.cpp > CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.i
+
+CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/imgui_draw.cpp -o CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.s
+
+CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.o: /Users/major/Desktop/MyEngine/src/imgui_widgets.cpp
+CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.o -MF CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.o.d -o CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.o -c /Users/major/Desktop/MyEngine/src/imgui_widgets.cpp
+
+CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/imgui_widgets.cpp > CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.i
+
+CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/imgui_widgets.cpp -o CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.s
+
+CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.o: /Users/major/Desktop/MyEngine/src/imgui_tables.cpp
+CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.o -MF CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.o.d -o CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.o -c /Users/major/Desktop/MyEngine/src/imgui_tables.cpp
+
+CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/imgui_tables.cpp > CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.i
+
+CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/imgui_tables.cpp -o CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.s
+
+CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.o: /Users/major/Desktop/MyEngine/src/imgui_impl_glfw.cpp
+CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.o -MF CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.o.d -o CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.o -c /Users/major/Desktop/MyEngine/src/imgui_impl_glfw.cpp
+
+CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/imgui_impl_glfw.cpp > CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.i
+
+CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/imgui_impl_glfw.cpp -o CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.s
+
+CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.o: /Users/major/Desktop/MyEngine/src/imgui_impl_opengl3.cpp
+CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.o -MF CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.o -c /Users/major/Desktop/MyEngine/src/imgui_impl_opengl3.cpp
+
+CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/imgui_impl_opengl3.cpp > CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/imgui_impl_opengl3.cpp -o CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.o: CMakeFiles/MyEngine.dir/flags.make
+CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.o: /Users/major/Desktop/MyEngine/src/ModelLoader.cpp
+CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.o: CMakeFiles/MyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.o -MF CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.o.d -o CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.o -c /Users/major/Desktop/MyEngine/src/ModelLoader.cpp
+
+CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/major/Desktop/MyEngine/src/ModelLoader.cpp > CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.i
+
+CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/major/Desktop/MyEngine/src/ModelLoader.cpp -o CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.s
+
 # Object files for target MyEngine
 MyEngine_OBJECTS = \
 "CMakeFiles/MyEngine.dir/src/main.cpp.o" \
@@ -208,7 +306,14 @@ MyEngine_OBJECTS = \
 "CMakeFiles/MyEngine.dir/src/Scene.cpp.o" \
 "CMakeFiles/MyEngine.dir/src/Input.cpp.o" \
 "CMakeFiles/MyEngine.dir/src/Texture.cpp.o" \
-"CMakeFiles/MyEngine.dir/src/glad.c.o"
+"CMakeFiles/MyEngine.dir/src/glad.c.o" \
+"CMakeFiles/MyEngine.dir/src/imgui.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.o"
 
 # External object files for target MyEngine
 MyEngine_EXTERNAL_OBJECTS =
@@ -222,10 +327,17 @@ MyEngine: CMakeFiles/MyEngine.dir/src/Scene.cpp.o
 MyEngine: CMakeFiles/MyEngine.dir/src/Input.cpp.o
 MyEngine: CMakeFiles/MyEngine.dir/src/Texture.cpp.o
 MyEngine: CMakeFiles/MyEngine.dir/src/glad.c.o
+MyEngine: CMakeFiles/MyEngine.dir/src/imgui.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/imgui_draw.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/imgui_widgets.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/imgui_tables.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/imgui_impl_glfw.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/imgui_impl_opengl3.cpp.o
+MyEngine: CMakeFiles/MyEngine.dir/src/ModelLoader.cpp.o
 MyEngine: CMakeFiles/MyEngine.dir/build.make
 MyEngine: /opt/homebrew/opt/glfw/lib/libglfw.3.dylib
 MyEngine: CMakeFiles/MyEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MyEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/major/Desktop/MyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable MyEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

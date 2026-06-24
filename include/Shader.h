@@ -28,6 +28,8 @@ public:
     void SetVec3(const std::string& name, const glm::vec3& value);
 
     void SetInt(const std::string& name, int value);
+
+    void SetFloat(const std::string& name, float value);
     
 private:
     // GPU 上的着色器程序ID, 0 表示无效

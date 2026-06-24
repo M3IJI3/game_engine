@@ -9,24 +9,33 @@ add_definitions(-DGL_SILENCE_DEPRECATION)
 include_directories(include)
 include_directories(/opt/homebrew/opt/glfw/include)
 include_directories(/Users/major/Desktop/MyEngine/include)
+include_directories(third_party/imgui)
+include_directories(third_party/imgui/backends)
 
 set(SOURCES
-    src/main.cpp
-    src/Window.cpp
-    src/Shader.cpp
-    src/Engine.cpp
-    src/Logger.cpp
-    src/Scene.cpp
-    src/Input.cpp
-    src/Texture.cpp
-    src/glad.c
+        src/main.cpp
+        src/Window.cpp
+        src/Shader.cpp
+        src/Engine.cpp
+        src/Logger.cpp
+        src/Scene.cpp
+        src/Input.cpp
+        src/Texture.cpp
+        src/glad.c
+        src/imgui.cpp
+        src/imgui_draw.cpp
+        src/imgui_widgets.cpp
+        src/imgui_tables.cpp
+        src/imgui_impl_glfw.cpp
+        src/imgui_impl_opengl3.cpp
+        include/ModelLoader.h
+        src/ModelLoader.cpp
 )
 
 add_executable(MyEngine ${SOURCES})
 
-target_link_libraries(MyEngine 
-    /opt/homebrew/opt/glfw/lib/libglfw.3.dylib
+target_link_libraries(MyEngine
+        /opt/homebrew/opt/glfw/lib/libglfw.3.dylib
 )
 
-# 单独链接OpenGL框架
 target_link_options(MyEngine PRIVATE -framework OpenGL)

@@ -1,22 +1,44 @@
-#version 330 core  // 使用OpenGL 3.3版本的着色器语法
+#version 330 core
 
-// out 表示这是输出数据，从GPU输出到屏幕
-// vec4 表示这是一个四维向量 (R, G, B, A) 分别代表红绿蓝和透明度
-// FragColor 是变量名，代表这个像素最终显示的颜色
 out vec4 FragColor;
 
 in vec2 TexCoord;
+in vec3 Normal;
+in vec3 FragPos;
 
-uniform sampler2D uTexture; // 纹理采样器
+uniform sampler2D uTexture;
+uniform vec3 uLightPos;
+uniform float uAmbientIntensity;
+uniform float uSpecularIntensity;
 
-// 从 CPU 传颜色
-// uniform vec3 uColor;
-
-// main函数：每个像素（碎片）都会执行一次这个函数
 void main() {
-    // vec4(1.0, 0.5, 0.2, 1.0) 表示：
-    // 红色 = 1.0（最大值），绿色 = 0.5，蓝色 = 0.2，透明度 = 1.0（不透明）
-    // 这个颜色是橙色
-    // FragColor = vec4(uColor, 1.0);
-    FragColor = texture(uTexture, TexCoord);  // 从纹理采样颜色
+    // 1. 从纹理采样颜色
+    vec2 texCoord = FragPos.xy * 0.5 + 0.5;
+    vec4 texColor = texture(uTexture, texCoord);
+
+    // ===== 光照计算 =====
+    vec3 normal = normalize(Normal);
+
+    // 漫反射：光源方向 = 光源位置 - 物体位置
+    vec3 lightDir = normalize(uLightPos - FragPos);
+    float diffuse = max(dot(normal, lightDir), 0.0);
+
+    // 环境光
+    float ambient = uAmbientIntensity;
+
+    // ===== 新增：镜面高光 =====
+    // 视角方向：摄像机在原点，所以从物体指向摄像机 = -FragPos
+    vec3 viewDir = normalize(-FragPos);
+    // 反射方向：光线经法线反射后的方向
+    vec3 reflectDir = reflect(-lightDir, normal);
+    // 计算高光强度：视角方向和反射方向越接近，高光越亮
+    float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32.0);
+    // 镜面高光 = 高光强度 × 镜面强度系数
+    float specular = spec * uSpecularIntensity;
+    // =========================
+
+    // 最终亮度 = 环境光 + 漫反射 + 镜面高光
+    float brightness = ambient + diffuse * (1.0 - ambient) + specular;
+
+    FragColor = vec4(texColor.rgb * brightness, 1.0);
 }
