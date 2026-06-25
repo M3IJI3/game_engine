@@ -36,3 +36,95 @@
 ---
 
 ## 📁 项目结构
+
+## 📁 项目结构
+
+```text
+MyEngine/
+├── CMakeLists.txt                # CMake 构建配置
+├── README.md                     # 项目说明
+│
+├── include/                      # 头文件 (.h)
+│   ├── Engine.h                  # 引擎核心类
+│   ├── Window.h                  # 窗口管理
+│   ├── Shader.h                  # 着色器管理
+│   ├── Scene.h                   # 场景管理
+│   ├── Texture.h                 # 纹理管理
+│   ├── ModelLoader.h             # OBJ 模型加载
+│   ├── Input.h                   # 输入系统
+│   ├── Logger.h                  # 日志系统
+│   └── Grid.h                    # 地面网格
+│
+├── src/                          # 源文件 (.cpp)
+│   ├── main.cpp                  # 程序入口
+│   ├── Engine.cpp
+│   ├── Window.cpp
+│   ├── Shader.cpp
+│   ├── Scene.cpp
+│   ├── Texture.cpp
+│   ├── ModelLoader.cpp
+│   ├── Input.cpp
+│   ├── Logger.cpp
+│   └── Grid.cpp
+│
+├── shaders/                      # GLSL 着色器
+│   ├── vertex.glsl               # 顶点着色器
+│   └── fragment.glsl             # 片元着色器
+│
+├── textures/                     # 纹理资源
+│   └── test.jpg                  # 测试纹理
+│
+├── models/                       # 3D 模型 (.obj)
+│   ├── bunny.obj                 # 斯坦福兔子
+│   ├── dragon.obj                # 斯坦福龙
+│   └── cube.obj                  # 测试立方体
+│
+└── third_party/                  # 第三方库（源码）
+    ├── imgui/                    # Dear ImGui
+    │   ├── imgui.h
+    │   ├── imgui.cpp
+    │   ├── backends/
+    │   │   ├── imgui_impl_glfw.h
+    │   │   ├── imgui_impl_glfw.cpp
+    │   │   ├── imgui_impl_opengl3.h
+    │   │   └── imgui_impl_opengl3.cpp
+    │   └── ...
+    └── tinyobjloader/            # tinyobjloader
+        └── tiny_obj_loader.h
+```
+
+---
+
+## 🧪 演示
+
+| 场景 | 说明 |
+|------|------|
+| 加载斯坦福龙 | 展示模型加载与光照效果 |
+| 实时调参 | ImGui 面板调整光源位置、环境光强度、镜面高光 |
+| 轨道摄像机 | 鼠标拖拽旋转 / 滚轮缩放 / WASD 平移 |
+
+> 截图占位（请放一张你的引擎运行截图）
+
+![screenshot](./screenshot.png)
+
+---
+
+## ⚙️ 构建与运行
+
+### 依赖
+
+- CMake 3.16+
+- C++17 编译器
+- GLFW（macOS: `brew install glfw`，Linux: `apt install libglfw3-dev`，Windows: vcpkg）
+
+### 构建
+
+```bash
+git clone https://github.com/M3IJI3/game_engine
+cd MyEngine
+mkdir build && cd build
+cmake ..
+make
+./MyEngine
+
+
