@@ -24,7 +24,8 @@ void main() {
     // 第四个分量1.0代表这是一个"位置"点，而不是"方向"向量
     // 新增: 用矩阵 * 顶点坐标, 得到变换后的位置
     gl_Position = uProjection * uView * uModel * vec4(aPos.x, aPos.y, aPos.z, 1.0);
-    TexCoord = aTexCoord;
+    // TexCoord = aTexCoord;
+    TexCoord = (uModel * vec4(aTexCoord, 0.0, 0.0)).xy;
 
     // 计算顶点在世界空间中的位置
     FragPos = vec3(uModel * vec4(aPos.x, aPos.y, aPos.z, 1.0));

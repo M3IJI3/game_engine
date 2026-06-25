@@ -25,6 +25,7 @@ bool Window::Create(int width, int height, const std::string& title){
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);                 // 主版本号 3
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);                 // 次版本号 3
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // 核心模式
+    glfwWindowHint(GLFW_COCOA_GRAPHICS_SWITCHING, GLFW_TRUE);
 
     // 3. 创建窗口
     m_window = glfwCreateWindow(width, height, title.c_str(), nullptr, nullptr);

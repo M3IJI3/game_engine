@@ -96,7 +96,12 @@ void Shader::SetMat4(const std::string& name, const glm::mat4& value){
 
 void Shader::SetVec3(const std::string& name, const glm::vec3& value){
     unsigned int location = glGetUniformLocation(m_programID, name.c_str());
+    glUseProgram(m_programID);  // 确保 program 被激活
     glUniform3fv(location, 1, &value[0]);
+
+    // 验证是否成功
+    float check[3];
+    glGetUniformfv(m_programID, location, check);
 }
 
 void Shader::SetInt(const std::string& name, int value){

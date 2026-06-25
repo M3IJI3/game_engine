@@ -30,6 +30,8 @@ set(SOURCES
         src/imgui_impl_opengl3.cpp
         include/ModelLoader.h
         src/ModelLoader.cpp
+        include/Grid.h
+        src/Grid.cpp
 )
 
 add_executable(MyEngine ${SOURCES})

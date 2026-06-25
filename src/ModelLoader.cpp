@@ -39,10 +39,11 @@ bool ModelLoader::LoadOBJ(const std::string& filepath, MeshData& outData) {
                 tinyobj::index_t idx = shapes[s].mesh.indices[index_offset + v];
 
                 // 位置
+                float scale = 5.0f;
                 outData.positions.push_back(glm::vec3(
-                    attrib.vertices[3 * idx.vertex_index + 0],
-                    attrib.vertices[3 * idx.vertex_index + 1],
-                    attrib.vertices[3 * idx.vertex_index + 2]
+                    attrib.vertices[3 * idx.vertex_index + 0] * scale,
+                    attrib.vertices[3 * idx.vertex_index + 1] * scale,
+                    attrib.vertices[3 * idx.vertex_index + 2] * scale
                 ));
 
                 // 纹理坐标

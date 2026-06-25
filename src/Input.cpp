@@ -6,8 +6,18 @@ Input& Input::GetInstance(){
     return instance;
 }
 
+static void ScrollCallback(GLFWwindow* window, double xoffset, double yoffset) {
+    Input::GetInstance().SetScrollOffset((float)yoffset);
+}
+
 // 每帧更新按键状态
 void Input::Update(GLFWwindow* window){
+    static bool initialized = false;
+    if (!initialized) {
+        glfwSetScrollCallback(window, ScrollCallback);
+        initialized = true;
+    }
+
     // 先把上一帧的 刚按下 状态清掉
     for(int i = 0 ; i < 1024 ; i++){
         m_keyJustPressed[i] = false;
@@ -35,3 +45,4 @@ bool Input::IsKeyPressed(int key) const {
 bool Input::IsKeyJustPressed(int key) const {
     return m_keyJustPressed[key];
 }
+

@@ -30,6 +30,8 @@ public:
     void SetInt(const std::string& name, int value);
 
     void SetFloat(const std::string& name, float value);
+
+    unsigned int GetProgramID() const { return m_programID; }
     
 private:
     // GPU 上的着色器程序ID, 0 表示无效
