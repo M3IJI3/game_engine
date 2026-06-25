@@ -8,7 +8,7 @@ add_definitions(-DGL_SILENCE_DEPRECATION)
 
 include_directories(include)
 include_directories(/opt/homebrew/opt/glfw/include)
-include_directories(/Users/major/Desktop/MyEngine/include)
+include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(third_party/imgui)
 include_directories(third_party/imgui/backends)
 

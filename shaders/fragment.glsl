@@ -10,12 +10,10 @@ uniform sampler2D uTexture;
 uniform vec3 uLightPos;
 uniform float uAmbientIntensity;
 uniform float uSpecularIntensity;
-uniform vec3 uColor;      // 新增：用于控制物体颜色
+uniform vec3 uColor;
 
 void main() {
     vec3 baseColor = uColor;
-
-    // 如果有纹理，用纹理颜色
     vec4 texColor = texture(uTexture, TexCoord);
     if (texColor.a > 0.0) {
         baseColor = texColor.rgb;

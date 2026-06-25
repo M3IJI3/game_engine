@@ -1,35 +1,24 @@
-#version 330 core  // 使用OpenGL 3.3版本的着色器语法
+#version 330 core
 
-// layout (location = 0) 表示这个数据来自第0号缓冲位置
-// in 表示这是输入数据，来自CPU传给GPU的顶点数据
-// vec3 表示这是一个三维向量 (x, y, z)
-// aPos 是变量名，代表顶点的位置坐标
 layout (location = 0) in vec3 aPos;
-layout (location = 1) in vec2 aTexCoord; // 纹理坐标
-layout (location = 2) in vec3 aNormal;   // 法线
+layout (location = 1) in vec2 aTexCoord;
+layout (location = 2) in vec3 aNormal;
 
-//uniform mat4 uTransform;
 uniform mat4 uModel;
 uniform mat4 uView;
-uniform mat4 uProjection;   // 投影矩阵
+uniform mat4 uProjection;
+uniform mat4 uLightSpaceMatrix;
 
-out vec2 TexCoord; // 传给片元着色器
-out vec3 Normal;   // 传给片元着色器
+out vec2 TexCoord;
+out vec3 Normal;
 out vec3 FragPos;
+out vec4 FragPosLightSpace;
 
-// main函数：每个顶点都会执行一次这个函数
 void main() {
-    // gl_Position 是GLSL内置变量，表示顶点在屏幕上的最终位置
-    // vec4(aPos.x, aPos.y, aPos.z, 1.0) 把三维坐标转成四维坐标
-    // 第四个分量1.0代表这是一个"位置"点，而不是"方向"向量
-    // 新增: 用矩阵 * 顶点坐标, 得到变换后的位置
-    gl_Position = uProjection * uView * uModel * vec4(aPos.x, aPos.y, aPos.z, 1.0);
-    // TexCoord = aTexCoord;
-    TexCoord = (uModel * vec4(aTexCoord, 0.0, 0.0)).xy;
-
-    // 计算顶点在世界空间中的位置
-    FragPos = vec3(uModel * vec4(aPos.x, aPos.y, aPos.z, 1.0));
-
-    // 法线用模型矩阵变换
-    Normal = mat3(transpose(inverse(uModel))) * aNormal;      // 直接传递
+    vec4 worldPos = uModel * vec4(aPos, 1.0);
+    gl_Position = uProjection * uView * worldPos;
+    TexCoord = aTexCoord;
+    FragPos = worldPos.xyz;
+    Normal = mat3(transpose(inverse(uModel))) * aNormal;
+    FragPosLightSpace = uLightSpaceMatrix * worldPos;
 }

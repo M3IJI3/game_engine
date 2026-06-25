@@ -37,14 +37,24 @@ void Grid::Draw(unsigned int shaderProgram, const glm::mat4& view, const glm::ma
 
     glUseProgram(shaderProgram);
 
-    // 网格跟随摄像机水平位置
-    // glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(cameraPos.x, 0.0f, cameraPos.z));
     glm::mat4 model = glm::mat4(1.0f);
     glUniformMatrix4fv(glGetUniformLocation(shaderProgram, "uModel"), 1, GL_FALSE, glm::value_ptr(model));
     glUniformMatrix4fv(glGetUniformLocation(shaderProgram, "uView"), 1, GL_FALSE, glm::value_ptr(view));
     glUniformMatrix4fv(glGetUniformLocation(shaderProgram, "uProjection"), 1, GL_FALSE, glm::value_ptr(projection));
 
     glUniform3fv(glGetUniformLocation(shaderProgram, "uColor"), 1, glm::value_ptr(glm::vec3(0.3f, 0.8f, 0.3f)));
+
+    glBindVertexArray(m_VAO);
+    glDrawArrays(GL_LINES, 0, m_vertexCount);
+}
+
+void Grid::DrawDepth(unsigned int shaderProgram, const glm::mat4& lightSpaceMatrix) const {
+    if (m_vertexCount == 0) return;
+
+    glUseProgram(shaderProgram);
+    glUniformMatrix4fv(glGetUniformLocation(shaderProgram, "uLightSpaceMatrix"), 1, GL_FALSE, glm::value_ptr(lightSpaceMatrix));
+    glm::mat4 model = glm::mat4(1.0f);
+    glUniformMatrix4fv(glGetUniformLocation(shaderProgram, "uModel"), 1, GL_FALSE, glm::value_ptr(model));
 
     glBindVertexArray(m_VAO);
     glDrawArrays(GL_LINES, 0, m_vertexCount);
