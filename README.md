@@ -103,9 +103,9 @@ MyEngine/
 | 实时调参 | ImGui 面板调整光源位置、环境光强度、镜面高光 |
 | 轨道摄像机 | 鼠标拖拽旋转 / 滚轮缩放 / WASD 平移 |
 
-> 截图占位（请放一张你的引擎运行截图）
+standford_dragon
+<img width="2880" height="1800" alt="dragon" src="https://github.com/user-attachments/assets/cbda47cf-fb04-4aa4-8fa6-b6ccccc91c4e" />
 
-![screenshot](./screenshot.png)
 
 ---
 
